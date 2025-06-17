@@ -44,8 +44,8 @@ export default function About(){
                     <SkillIcon link="https://docs.python.org/3/" alt="python" src="/python.png"></SkillIcon>
                     <SkillIcon link="https://www.postgresql.org/docs/" alt="postgresql" src="/postgresql.png"></SkillIcon>
                     <SkillIcon link="https://www.mongodb.com/docs/" alt="mongodb" src="/mongo.png"></SkillIcon>
-                    <SkillIcon link="https://devdocs.io/c/" alt="C" src="/c.png"></SkillIcon>
-                    <SkillIcon link="https://devdocs.io/cpp/" alt="C++" src="/c++.png"></SkillIcon>
+                    <SkillIcon link="https://devdocs.io/c/" alt="C" src="/C.png"></SkillIcon>
+                    <SkillIcon link="https://devdocs.io/cpp/" alt="C++" src="/C++.png"></SkillIcon>
                 </div>
                 <h1 className="mt-4 mb-2">Technologies & Frameworks</h1>
                 <div className="flex gap-3 flex-wrap">
