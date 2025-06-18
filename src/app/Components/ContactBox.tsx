@@ -24,7 +24,7 @@ export default function ContactBox(){
 	};
 	return (
 		<>
-		<form ref={form} onSubmit={sendEmail} className="mb-50 mx-auto p-6 bg-white border-3 w-3/4 rounded-lg shadow-md">
+		<form ref={form} onSubmit={sendEmail} className="mb-50 mx-auto p-6 shadow-2xl bg-white border-3 w-3/4 rounded-lg">
 			<div className="mb-4 flex flex-col">
 				<label htmlFor="name" className="mb-2 text-2xl">Name</label>
 				<input type="text" id="name" name="name" className="px-3 py-2 border-2 border-black rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"/>
