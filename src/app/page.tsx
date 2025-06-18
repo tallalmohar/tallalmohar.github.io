@@ -59,6 +59,7 @@ export default function Home() {
             github="#"
             imageHeight={100}
             imageWidth2={100}
+            scaleOnHover={false}
           />
           <FeaturedProj
             ptag="For CMPT 340, I designed and trained an AI model in PyTorch to classify multi-channel EEG time-series data with up to ~74% accuracy, and implemented a 
@@ -72,6 +73,7 @@ export default function Home() {
             github="#"
             imageHeight={100}
             imageWidth2={100}
+            scaleOnHover={false}
           />
           <FeaturedProj
             ptag="A modern, responsive Tesla homepage built with Next.js and React, designed as a showcase project for the Frontend Engineer, Applications Engineering (Fall 2025) internship at Tesla." 
@@ -84,6 +86,7 @@ export default function Home() {
             github="#"
             imageHeight={100}
             imageWidth2={150}
+            scaleOnHover={false}
           />
         </div>
     </>
