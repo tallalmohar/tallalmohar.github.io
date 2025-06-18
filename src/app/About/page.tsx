@@ -11,7 +11,7 @@ export default function About(){
                 <h1 className="text-md font-bold text-gray-500">22, Full-Stack Developer & ML Engineer</h1>
             </div>
             
-            <div className="bg-white border shadow-2xl rounded-2xl p-6 mb-10 w-1/2">
+            <div className="bg-white border-3 shadow-2xl rounded-2xl p-6 mb-10 w-1/2">
                 <p>
                     I'm Tallal Mohar, a Computing Science student at Simon Fraser University with a concentration
                     in Artificial Intelligence. I'm passionate about building impactful software—from full-stack
@@ -22,7 +22,7 @@ export default function About(){
             
             <hr className="w-full h-1 mx-auto border-0 rounded-sm my-8 bg-black"></hr>
             
-            <div className="border shadow-2xl rounded-2xl p-6 mb-8 bg-white">
+            <div className="border-3 shadow-2xl rounded-2xl p-6 mb-8 bg-white">
                 <div className="flex justify-between">
                     <h1 className="text-3xl font-bold">Simon Fraser University</h1>
                     <h1 className="text-sm font-bold self-center">Expected Dec 2026</h1>
@@ -33,7 +33,7 @@ export default function About(){
                 </div>
             </div>
             
-            <div className="border shadow-2xl rounded-2xl p-6 bg-white mb-8">
+            <div className="border-3 shadow-2xl rounded-2xl p-6 bg-white mb-8">
                 <h1 className="text-3xl font-bold">Skills</h1>
                 <h1 className="mt-4 mb-2">Languages</h1>
                 <div className="flex gap-3 flex-wrap">
