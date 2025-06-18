@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import SkillIcon from "./SkillIcon";
-
+import Link from "next/link";
 type FeaturedProjProps = {
     imgSrc: string,
     github: string,
@@ -14,6 +14,7 @@ type FeaturedProjProps = {
     ptag: string,
     imageHeight: number, 
     imageWidth2: number, 
+    scaleOnHover: boolean
 }
 
 export default function FeaturedProj({
@@ -27,11 +28,14 @@ export default function FeaturedProj({
     ptag,
     imageHeight,
     imageWidth2,
+    scaleOnHover
 }: FeaturedProjProps){
-
+    const handleClick = () => {
+        window.location.href = github
+    }
     return(
         <>
-            <div className="w-130 border-3 bg-white rounded-2xl shadow-2xl flex p-4">
+            <div onClick={handleClick} className={`w-130 border-3 bg-white ${scaleOnHover ? 'hover:scale-110 hover:cursor-pointer' : ''}   duration-300 ease-linear rounded-2xl shadow-2xl flex p-4`}>
                 <div className="flex flex-col justify-center p-4">
                 <Image 
                     className="h-auto" 
@@ -52,6 +56,7 @@ export default function FeaturedProj({
                     <SkillIcon link="" src={skill4} alt="typescript"></SkillIcon>
                     </div>
                 </div>
+                
             </div>
             
         </>
