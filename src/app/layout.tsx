@@ -26,14 +26,11 @@ export default function RootLayout({
       <body className={`${oswald.className} overflow-x-hidden`}>
           <div className="container mx-auto px-4 flex justify-between items-center">
             <Link href="/" className="py-4">
-              <Image src="/mainIMG.svg" height={75} width={75} alt="person"></Image>
+              <Image src="/mainIMG.svg" height={75} width={75} alt="Main Image"></Image>
             </Link>
-            <div className="flex gap-2">
+            <div className="relative right-50">
               <div className="border-2 rounded-lg shadow-2xl h-[50px] w-[50px] p-1 bg-white hover:cursor-pointer flex justify-center items-center hover:scale-110 transition-transform">
-                <Image src="/sun.png" height={40} width={40} alt="sun"></Image>
-              </div>
-              <div className="border-2 rounded-lg shadow-2xl h-[50px] w-[50px] p-1 bg-white hover:cursor-pointer flex justify-center items-center hover:scale-110 transition-transform">
-                <Image src="/menu.png" height={40} width={40} alt="menu"></Image>
+                <Image src="/menu.png" height={40} width={40} alt="resume"></Image>
               </div>
             </div>
           </div>
