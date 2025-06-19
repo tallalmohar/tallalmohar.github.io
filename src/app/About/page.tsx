@@ -37,23 +37,27 @@ export default function About(){
                 <h1 className="text-3xl font-bold">Skills</h1>
                 <h1 className="mt-4 mb-2">Languages</h1>
                 <div className="flex gap-3 flex-wrap">
-                    <SkillIcon link="https://docs.oracle.com/en/java/" alt="java" src="/java-min.png"></SkillIcon>
-                    <SkillIcon link="https://www.typescriptlang.org/docs/" alt="typescirpt" src="/typescript-min.png"></SkillIcon>
-                    <SkillIcon link="https://developer.mozilla.org/en-US/docs/Web/JavaScript" alt="javascript" src="/javascript.png"></SkillIcon>
-                    <SkillIcon link="https://developer.mozilla.org/en-US/docs/Web/CSS" alt="css" src="/css.png"></SkillIcon>
-                    <SkillIcon link="https://docs.python.org/3/" alt="python" src="/python.png"></SkillIcon>
-                    <SkillIcon link="https://www.postgresql.org/docs/" alt="postgresql" src="/postgresql.png"></SkillIcon>
-                    <SkillIcon link="https://www.mongodb.com/docs/" alt="mongodb" src="/mongo.png"></SkillIcon>
-                    <SkillIcon link="https://devdocs.io/c/" alt="C" src="/C.png"></SkillIcon>
-                    <SkillIcon link="https://devdocs.io/cpp/" alt="C++" src="/C++.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://docs.oracle.com/en/java/" alt="java" src="/java-min.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://www.typescriptlang.org/docs/" alt="typescirpt" src="/typescript-min.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://developer.mozilla.org/en-US/docs/Web/JavaScript" alt="javascript" src="/javascript.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://developer.mozilla.org/en-US/docs/Web/CSS" alt="css" src="/css.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://docs.python.org/3/" alt="python" src="/python.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://www.postgresql.org/docs/" alt="postgresql" src="/postgresql.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://www.mongodb.com/docs/" alt="mongodb" src="/mongo.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://devdocs.io/c/" alt="C" src="/C.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://devdocs.io/cpp/" alt="C++" src="/C++.png"></SkillIcon>
                 </div>
                 <h1 className="mt-4 mb-2">Technologies & Frameworks</h1>
                 <div className="flex gap-3 flex-wrap">
-                    <SkillIcon link="https://react.dev/" alt="react" src="/react-min.png"></SkillIcon>
-                    <SkillIcon link="https://docs.spring.io/spring-boot/index.html" alt="springboot" src="/spring-boot-1.svg"></SkillIcon>
-                    <SkillIcon link="nextjs.org" alt="nextjs" src="/nextjs.svg"></SkillIcon>
-                    <SkillIcon link="https://nodejs.org/en" alt="nodejs" src="/nodejs.png"></SkillIcon>
-                    <SkillIcon link="https://tailwindcss.com/" alt="tailwind" src="/tailwind.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://react.dev/" alt="react" src="/react-min.png"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://docs.spring.io/spring-boot/index.html" alt="springboot" src="/spring-boot-1.svg"></SkillIcon>
+                    <SkillIcon disableHover={false} link="nextjs.org" alt="nextjs" src="/nextjs.svg"></SkillIcon>
+                    <SkillIcon disableHover={false} link="https://nodejs.org/en" alt="nodejs" src="/nodejs.png"></SkillIcon>
+                    <SkillIcon disableHover={false}link="https://tailwindcss.com/" alt="tailwind" src="/tailwind.png"></SkillIcon>
+                    <SkillIcon disableHover={false}link="https://react-leaflet.js.org/" alt="reactleaf" src="/reactleaf.png"></SkillIcon>
+                    <SkillIcon disableHover={false}link="https://tanstack.com/query/latest/docs/framework/react/overview" alt="reactquery" src="/reactquery.png"></SkillIcon>
+                    <SkillIcon disableHover={false}link="https://www.mathworks.com/help/matlab/index.html" alt="matlab" src="/matlab.png"></SkillIcon>
+                    <SkillIcon disableHover={false}link="https://jupyter.org/" alt="matlab" src="/jupiyter.png"></SkillIcon>
                 </div>
             </div>
         </div>

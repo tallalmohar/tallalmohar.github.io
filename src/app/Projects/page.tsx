@@ -22,6 +22,7 @@ export default function Projects(){
 						imageHeight={100}
 						imageWidth2={150}
 						scaleOnHover={true}
+						disableHover={false}
 					  />
 			</div>
 			<div className="p-4 text-center flex justify-center">
@@ -37,6 +38,7 @@ export default function Projects(){
 						imageHeight={100}
 						imageWidth2={150}
 						scaleOnHover={true}
+						disableHover={false}
 					  />
 	
 			</div>
@@ -55,6 +57,7 @@ export default function Projects(){
 							imageHeight={100}
 							imageWidth2={100}
 							scaleOnHover={true}
+							disableHover={false}
 						  />
 			</div>
 			<div className="p-4 text-center flex justify-center">
@@ -71,6 +74,7 @@ export default function Projects(){
 							imageHeight={100}
 							imageWidth2={100}
 							scaleOnHover={true}
+							disableHover={false}
 						  />
 			</div>
 			<div className="p-4 text-center flex justify-center">
@@ -87,6 +91,7 @@ export default function Projects(){
 						imageHeight={100}
 						imageWidth2={150}
 						scaleOnHover={true}
+						disableHover={false}
 					  />
 			</div>
 		</div>
