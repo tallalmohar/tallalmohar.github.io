@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Oswald} from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import ResumeBtn from "./Components/ResumeBtn";
 import "./globals.css";
 
 const oswald = Oswald({
@@ -28,11 +29,7 @@ export default function RootLayout({
             <Link href="/" className="py-4">
               <Image src="/mainIMG.svg" height={75} width={75} alt="Main Image"></Image>
             </Link>
-            <div className="relative right-50">
-              <div className="border-2 rounded-lg shadow-2xl h-[50px] w-[50px] p-1 bg-white hover:cursor-pointer flex justify-center items-center hover:scale-110 transition-transform">
-                <Image src="/menu.png" height={40} width={40} alt="resume"></Image>
-              </div>
-            </div>
+            <ResumeBtn></ResumeBtn>
           </div>
           
           <main className="container mx-auto px-4">
