@@ -14,7 +14,8 @@ type FeaturedProjProps = {
     ptag: string,
     imageHeight: number, 
     imageWidth2: number, 
-    scaleOnHover: boolean
+    scaleOnHover: boolean,
+    disableHover: boolean
 }
 
 export default function FeaturedProj({
@@ -28,7 +29,8 @@ export default function FeaturedProj({
     ptag,
     imageHeight,
     imageWidth2,
-    scaleOnHover
+    scaleOnHover,
+    disableHover
 }: FeaturedProjProps){
     const handleClick = () => {
         window.location.href = github
@@ -50,10 +52,10 @@ export default function FeaturedProj({
                 <div className="flex flex-col items-center ">
                 <p className="text-left mt-5">{ptag}</p>
                     <div className="flex gap-3 mt-4">
-                    <SkillIcon link="" src={skill1} alt="Springboot"></SkillIcon>
-                    <SkillIcon link="" src={skill2} alt="React"></SkillIcon>
-                    <SkillIcon link="" src={skill3} alt="postgresql"></SkillIcon>
-                    <SkillIcon link="" src={skill4} alt="typescript"></SkillIcon>
+                    <SkillIcon disableHover={disableHover} link="" src={skill1} alt="Springboot"></SkillIcon>
+                    <SkillIcon disableHover={disableHover} link="" src={skill2} alt="React"></SkillIcon>
+                    <SkillIcon disableHover={disableHover} link="" src={skill3} alt="postgresql"></SkillIcon>
+                    <SkillIcon  disableHover={disableHover} link="" src={skill4} alt="typescript"></SkillIcon>
                     </div>
                 </div>
                 

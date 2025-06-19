@@ -18,14 +18,14 @@ export default function Home() {
         </div>
         <div className="flex w-2xl h-full justify-center items-center flex-col text-center">
             <h1 className="text-2xl">Hello, my name is Tallal a </h1>
-            <h1 className="text-6xl font-bold ">Full-Stack Developer &<br/> ML Engineer</h1>
+            <h1 className="text-6xl font-bold ">Full-Stack Developer &<br/> AI Engineer</h1>
             <div className="flex justify-center gap-3 mt-5 w-full">
-              <SkillIcon link="https://docs.spring.io/spring-boot/index.html" alt="springboot" src="/spring-boot-1.svg"></SkillIcon>
-              <SkillIcon link="https://react.dev/" alt="react" src="/react-min.png"></SkillIcon>
-              <SkillIcon link="https://www.typescriptlang.org/docs/" alt="typescript" src="typescript-min.png"></SkillIcon>
-              <SkillIcon link="https://docs.oracle.com/en/java/" alt="java" src="java-min.png"></SkillIcon>
-              <SkillIcon link="https://www.postgresql.org/docs/" alt="postgresql" src="postgresql.png"></SkillIcon>
-              <SkillIcon link="https://www.python.org/doc/" alt="python" src="python.png"></SkillIcon>
+              <SkillIcon disableHover={false} link="https://docs.spring.io/spring-boot/index.html" alt="springboot" src="/spring-boot-1.svg"></SkillIcon>
+              <SkillIcon disableHover={false} link="https://react.dev/" alt="react" src="/react-min.png"></SkillIcon>
+              <SkillIcon disableHover={false} link="https://www.typescriptlang.org/docs/" alt="typescript" src="typescript-min.png"></SkillIcon>
+              <SkillIcon disableHover={false} link="https://docs.oracle.com/en/java/" alt="java" src="java-min.png"></SkillIcon>
+              <SkillIcon disableHover={false} link="https://www.postgresql.org/docs/" alt="postgresql" src="postgresql.png"></SkillIcon>
+              <SkillIcon disableHover={false} link="https://www.python.org/doc/" alt="python" src="python.png"></SkillIcon>
              
             </div> 
         </div>
@@ -60,6 +60,7 @@ export default function Home() {
             imageHeight={100}
             imageWidth2={100}
             scaleOnHover={false}
+            disableHover={true}
           />
           <FeaturedProj
             ptag="For CMPT 340, I designed and trained an AI model in PyTorch to classify multi-channel EEG time-series data with up to ~74% accuracy, and implemented a 
@@ -74,6 +75,7 @@ export default function Home() {
             imageHeight={100}
             imageWidth2={100}
             scaleOnHover={false}
+            disableHover={true}
           />
           <FeaturedProj
             ptag="A modern, responsive Tesla homepage built with Next.js and React, designed as a showcase project for the Frontend Engineer, Applications Engineering (Fall 2025) internship at Tesla." 
@@ -87,6 +89,7 @@ export default function Home() {
             imageHeight={100}
             imageWidth2={150}
             scaleOnHover={false}
+            disableHover={true}
           />
         </div>
     </>
