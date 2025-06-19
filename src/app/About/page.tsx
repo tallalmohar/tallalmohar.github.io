@@ -1,6 +1,7 @@
 'use client';
 import React from "react";
 import SkillIcon from "../Components/SkillIcon";
+import Image from "next/image";
 
 export default function About(){
     return (
@@ -9,17 +10,28 @@ export default function About(){
             <div className="mb-8">
                 <h1 className="text-5xl font-bold">Tallal Mohar</h1>
                 <h1 className="text-md font-bold text-gray-500">22, Full-Stack Developer & ML Engineer</h1>
+                
             </div>
-            
-            <div className="bg-white border-3 shadow-2xl rounded-2xl p-6 mb-10 w-1/2">
-                <p>
-                    I'm Tallal Mohar, a Computing Science student at Simon Fraser University with a concentration
-                    in Artificial Intelligence. I'm passionate about building impactful software—from full-stack
-                    web applications to intelligent systems that process complex data.<br/><br/>Currently, I'm working as
-                    a Software Developer  @
-                </p>
+            <div className="flex">
+            <div className="flex flex-col">
+                <div className="bg-white border-3 shadow-2xl rounded-2xl p-6 h-70 mb-10 w-4/5">
+                
+                    <p>
+                        I'm Tallal Mohar, a Computing Science student at Simon Fraser University with a concentration
+                        in Artificial Intelligence. I'm passionate about building impactful software—from full-stack
+                        web applications to intelligent systems that process complex data.<br/>
+                        
+
+                        <br/>Currently, I'm working as
+                        a Software Developer  @ .....
+                    </p>
+                    
+                </div>
+                 <Image  className=" rounded-2xl" src="random.jpeg" height="20" width="450" alt="Beautiful British Columbia sunset"></Image>
+             </div>
+             <Image  className="ml-3 rounded-2xl" src="me.jpg" height="100" width="450" alt="tallal"></Image>
             </div>
-            
+           
             <hr className="w-full h-1 mx-auto border-0 rounded-sm my-8 bg-black"></hr>
             
             <div className="border-3 shadow-2xl rounded-2xl p-6 mb-8 bg-white">
